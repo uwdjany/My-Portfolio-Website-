@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #00003b;
+  --secondary: #f5d20b;
+  --third:#3232BD;
+  --text-white: #fff;
+  --text-secondary: rgba(206, 206, 206, 0.945);
+}
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color: var(--primary);
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+
+
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#navbar li{
+    padding: 0 20px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color: var(--secondary);
+}
+#navbar li a:hover::after,
+#navbar li a.active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: var(--secondary);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+
+
+}
+.logo{
+    font-size: 2rem;
+    color: var(--secondary);
+    font-weight: 700;
+    line-height: 20px;
+}
+.logo span{
+color: #fff;
+}
+
+      
+#mobile {
+    display: none;
+}
+#mobile i{
+    color: var(--text-white);
+
+}
+@media screen and (max-width:969px){
+    #navbar{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: fixed;
+        top: 90px;
+        right: -300px;
+        width: 300px;
+        height: 100vh;
+        background: #2a3239;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1) ;
+        padding: 40px 0  0 10px;
+        transition:0.3s ease-in-out ;
+
+        
+    }
+    #navbar.active{
+        right: 0;
+    }
+    .logo{
+        font-size: 1rem;
+    }
+    #mobile{
+        display: block;
+    }
+    #navbar li{
+        margin-bottom: 25px ;
+    }
+    #mobile i{
+        font-size: 24px;
+        cursor: pointer;
+    }
+}

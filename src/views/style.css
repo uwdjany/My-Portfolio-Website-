@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+   
+}
+
+.content{
+    text-align: center;
+    margin-top: 15%;
+
+}
+.container p{
+ 
+
+}
+.contact-link{
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+ 
+}
+
+.btn-contact{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 0.5rem;
+    margin: 30px;
+    border-radius: 10px;
+    border: solid 2px #FF10F0 ;
+    
+
+
+}
+.btn-resume{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: solid 2px #FF10F0 ;
+
+
+}
+
+
+
+
+
+
+
+/* screen mobile */
+
+@media only screen and (max-width: 600px){
+    .container{
+   min-height: 100vh;
+   max-width: 100%;
+    }
+
+}

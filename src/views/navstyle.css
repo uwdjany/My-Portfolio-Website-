@@ -1,0 +1,24 @@
+
+ 
+.navbar{
+    background-color: blue;
+    z-index: 1;
+}
+.brand, .list_item{
+    color: #fff;
+   
+}
+button.navbar-toggler.collapsed{
+    background: #fff;
+    
+}
+button.navbar-toggler{
+    background: #fff;
+}
+.list_item{
+    justify-content: center;
+}
+.brand{
+    color: #fff;
+    
+}
