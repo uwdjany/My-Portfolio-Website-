@@ -7,12 +7,17 @@ const ParticlesComponent =()=>{
     const options = useMemo(() =>{
         return{
             background:{
-color:"#00008b"
+color:"#00008b",
+
+
+            },
+            number:{
+                value:150
 
             },
             fullScreen:{
 enable:true,
- zIndex:-1,
+ Zindex:-1,
             },
             particles:{
                 links:{
