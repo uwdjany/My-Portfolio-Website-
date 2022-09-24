@@ -13,71 +13,77 @@
 :root {
   --primary: #00003b;
   --secondary: #f5d20b;
-  --third:#3232BD;
+  --third: #3232bd;
   --text-white: #fff;
   --text-secondary: rgba(206, 206, 206, 0.945);
 }
-.home-section{
-    background-color: var(--primary);
-    width: 100%;
-    height: 100vh;
-    
+.home-section {
+  background-color: var(--primary);
+  width: 100%;
+  height: 100vh;
 }
-.container{
-   text-align: center;
-   /* position: absolute;
-   left: 40%;
-   top: 40%; */
-   padding-top: 10em;
 
-   
+.container {
+  text-align: center;
+  padding-top: 10em;
 }
-.intro{
-    padding-top: 30px;
-    width: 50%;
-    position: absolute; 
-     left:25%;
+.intro {
+  padding-top: 30px;
+  width: 80%;
+  padding-left: 20%;
+}
+.intro p {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+.container h1 {
+  font-size: 40px;
+  color: var(--text-white);
+  font-weight: 700;
+}
+.container h4 {
+  font-size: 30px;
+  color: var(--secondary);
+}
+.title h4 {
+  padding: 18px;
+}
+.btn {
 
+  padding: 90px;
+}
 
-    
+.btn .contact {
+  background: rgb(71, 71, 233);
+  padding: 20px;
+  font-size: 25px;
+  border: 2px solid #fff;
 }
-.intro p{
-    font-size: 30px;
-    line-height: 30px;
-    font-weight: 500;
-    color: var(--text-secondary);
- 
+.btn .resume {
+  background: green;
+  padding: 20px;
+  font-size: 25px;
+  border: 2px solid #fff;
+}
+@media screen and (min-height:769px){
+    .home-section {
+        background-color: var(--primary);
+        width: 100%;
+        height: 100vh;
+      }
 
-}
-.container h1{
-    font-size: 40px;
-    color: var(--text-white);
-    font-weight: 700;
-}
-.container h4{
-    font-size: 30px;
-    color: var(--secondary);
-}
-.title h4{
-    padding: 18px;
-  
-}
-.btn{
-    position: absolute;
-    top: 80%;
-    left: 40%;
-  
-}
-.btn .contact{
-    background: rgb(71, 71, 233);
-    padding: 20px;
-    font-size: 25px;
-    border: 2px solid #fff;
-  
-}
-.btn .resume{
-    background: green;
-    padding: 20px;
-    font-size: 25px;
-    border: 2px solid #fff;
+    .intro p{
+        font-size: 20px;
+        line-height: 30px;
+        width: 100%;
+        height: 100%;
+        
+    }
+    .title h1{
+        display: flex;
+        font-size: 30px;
+        padding-left: 35px;
+    }
 }

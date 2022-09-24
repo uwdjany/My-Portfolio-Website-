@@ -1,5 +1,5 @@
 import React from 'react'
-
+import ParticlesComponent from './component/Particles';
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './views/home';
@@ -11,8 +11,10 @@ const App = () => {
   return (
     <>
     
- <Navigation/>
+ {/* <Navigation/> */}
+
    <Home/>
+   {/* <ParticlesComponent/> */}
 
     
    
