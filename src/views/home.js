@@ -14,42 +14,36 @@ const Home = () => {
 
     <>
     <Navigation/>
+    <div className='cs'>
 
-<section className='home-section'>
-
-  <div className='container'>
- 
-<div className='title'>
-  <h1>Hi,I'm Djanati UWASE</h1>
-  <h4>A Softawre Engineer</h4>
-</div>
-<div className='intro'>
-<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum qui
-              atque neque sit repellat ullam architecto tenetur quibusdam
-              aspernatur deleniti.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum qui
-              atque neque sit repellat ullam architecto tenetur quibusdam
-              aspernatur deleniti.
-              
-              
-              
-              </p>
-</div>
-
-<div className='btn'>
-  <a href='' className='contact'>Contact Me</a>
-  <a href='' className='resume'>Resume</a>
-</div>
-
-
+<section className=''>
+<div className='container'>
+  <div className='text-center'>
+<h1 id="heading-one">HI , i'm Djanati UWASE</h1>
+<h4 id="heading-two">A Software Developer</h4>
   </div>
+  <div className='row justify-content-center'>
+    <div className='col-md-8 text-center'>
+<p className='text-muted my-4' id='paragraph'>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
+              maxime alias, ipsam dicta beatae sed nesciunt iusto eos id nemo
+              perspiciatis doloremque rem veniam voluptatum quidem dolorem
+              dolore magni sapiente! Lorem ipsum dolor, sit amet consectetur
+              adipisicing elit. Maxime sequi ab sint nostrum
+              
+</p>
+<a className='btn btn-primary fw-bold mx-3' id="btn-one" href='#'>Contact Me</a>
+
+<a className='btn btn-primary fw-bold' id="btn-two" href='#'>My Resume</a>
+
+    </div>
+  </div>
+</div>
 
 
-   
- 
 </section>
 
-
+</div>
 </>
 
   )
