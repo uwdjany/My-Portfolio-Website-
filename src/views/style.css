@@ -17,73 +17,44 @@
   --text-white: #fff;
   --text-secondary: rgba(206, 206, 206, 0.945);
 }
-.home-section {
+.cs{
   background-color: var(--primary);
   width: 100%;
   height: 100vh;
+  object-fit: cover;
 }
-
-.container {
-  text-align: center;
-  padding-top: 10em;
+.container{
+  padding: 9rem;
 }
-.intro {
-  padding-top: 30px;
-  width: 80%;
-  padding-left: 20%;
-}
-.intro p {
-  font-size: 30px;
-  line-height: 30px;
-  font-weight: 500;
-  color: var(--text-secondary);
-}
-.container h1 {
-  font-size: 40px;
+#heading-one{
   color: var(--text-white);
   font-weight: 700;
+  /* font-size: 50px; */
 }
-.container h4 {
-  font-size: 30px;
+#heading-two{
   color: var(--secondary);
-}
-.title h4 {
-  padding: 18px;
-}
-.btn {
+  font-weight: 700;
 
-  padding: 90px;
 }
-
-.btn .contact {
-  background: rgb(71, 71, 233);
-  padding: 20px;
-  font-size: 25px;
-  border: 2px solid #fff;
+#paragraph{
+  font-size: 20px;
 }
-.btn .resume {
-  background: green;
-  padding: 20px;
-  font-size: 25px;
-  border: 2px solid #fff;
+#btn-one{
+ background-color: #3232bd;
+ border: solid #fff 2px;
+ transition: 0.3s ease-in-out;
+ 
 }
-@media screen and (min-height:769px){
-    .home-section {
-        background-color: var(--primary);
-        width: 100%;
-        height: 100vh;
-      }
-
-    .intro p{
-        font-size: 20px;
-        line-height: 30px;
-        width: 100%;
-        height: 100%;
-        
-    }
-    .title h1{
-        display: flex;
-        font-size: 30px;
-        padding-left: 35px;
-    }
+#btn-one:hover{
+  background-color: var(--primary);
+  color: #f5d20b;
+}
+#btn-two{
+  background-color: green;
+  border: solid 2px #00003b;
+  transition: 0.3s ease-in-out;
+}
+#btn-two:hover{
+  background-color: greenyellow;
+  color: #00003b;
 }
