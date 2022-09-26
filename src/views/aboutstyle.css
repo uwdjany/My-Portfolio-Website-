@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #00003b;
+  --secondary: #f5d20b;
+  --third: #3232bd;
+  --text-white: #fff;
+  --text-secondary: rgba(206, 206, 206, 0.945);
+}
+#image-about{
+    
+    border: solid 2px var(--secondary);
+}
+.about{
+  background-color:rgb(6, 6, 116);
+}
+#paragraph-about{
+  color: var(--text-secondary);
+}
+#heading-5{
+  color: var(--secondary);
+}
+#heading-2{
+  color: var(--text-white);
+}
+#heading-2::after{
+  content: '';
+  background-color: var(--secondary);
+  width: 10%;
+  height: 3px;
+  position: absolute;
+  bottom: -55px;
+  left: 45%;
+
+}
