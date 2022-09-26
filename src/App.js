@@ -4,6 +4,7 @@ import ParticlesComponent from './component/Particles';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './views/home';
 import Navigation from './component/navaBar';
+import ABOUT from './views/about';
 
 
 
@@ -15,6 +16,7 @@ const App = () => {
 
    <Home/>
    {/* <ParticlesComponent/> */}
+   <ABOUT/>
 
     
    

@@ -23,8 +23,8 @@
   height: 100vh;
   object-fit: cover;
 }
-.container{
-  padding: 9rem;
+#content-one{
+  padding-top:15rem ;
 }
 #heading-one{
   color: var(--text-white);
@@ -40,7 +40,7 @@
   font-size: 20px;
 }
 #btn-one{
- background-color: #3232bd;
+ background-color: rgb(22, 22, 138);
  border: solid #fff 2px;
  transition: 0.3s ease-in-out;
  
@@ -53,6 +53,7 @@
   background-color: green;
   border: solid 2px #00003b;
   transition: 0.3s ease-in-out;
+  border: solid #fff 2px;
 }
 #btn-two:hover{
   background-color: greenyellow;

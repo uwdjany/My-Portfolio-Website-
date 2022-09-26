@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from '../component/navaBar';
 import ParticlesComponent from '../component/Particles'
+import ABOUT from './about';
 // import ParticlesComponent from './component/Particles'
 import "./style.css"
 
@@ -14,10 +15,10 @@ const Home = () => {
 
     <>
     <Navigation/>
-    <div className='cs'>
+    <div className='cs' id='home'>
 
 <section className=''>
-<div className='container'>
+<div className='container' id='content-one'>
   <div className='text-center'>
 <h1 id="heading-one">HI , i'm Djanati UWASE</h1>
 <h4 id="heading-two">A Software Developer</h4>
@@ -44,6 +45,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
 </section>
 
 </div>
+
 </>
 
   )
