@@ -18,7 +18,7 @@ const Home = () => {
     <div className='cs' id='home'>
 
 <section className=''>
-<div className='container' id='content-one'>
+<div className='container-lg' id='content-one'>
   <div className='text-center'>
 <h1 id="heading-one">HI , i'm Djanati UWASE</h1>
 <h4 id="heading-two">A Software Developer</h4>

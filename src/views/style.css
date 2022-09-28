@@ -59,3 +59,29 @@
   background-color: greenyellow;
   color: #00003b;
 }
+
+@media only screen and (max-width: 600px){
+  #content-one{
+   
+
+  width: 100%;
+ 
+  }
+  #heading-one{
+    font-size: 20px;
+  }
+  #heading-two{
+    font-size: 20px;
+  }
+  #paragraph{
+    font-size: 10px;
+  }
+  #btn-one ,#btn-two{
+    font-size: 10px;
+  
+  }
+ .cs{
+  
+ }
+ 
+}
