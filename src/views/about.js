@@ -5,7 +5,7 @@ import './aboutstyle.css'
 const ABOUT = () => {
   return (
     <section className='about' id='abouting'>
-        <div className='container'>
+        <div className="container-lg">
             <div className='text-center'>
                 <h2 className='fw-bold' id='heading-2'>About Me</h2>
             </div>
