@@ -20,6 +20,10 @@
 #image-about{
     
     border: solid 2px var(--secondary);
+    height: 30vh;
+    border-radius: 20px;
+
+   
 }
 .about{
   background-color:rgb(6, 6, 116);
