@@ -25,7 +25,7 @@ class Navigation extends Component {
                 <a href="#abouting">About Me</a>
               </li>
               <li>
-                <a href="#">Work</a>
+                <a href="#work">Work</a>
               </li>
               <li>
                 <a href="#">Testemonial</a>
