@@ -60,18 +60,20 @@
   color: #00003b;
 }
 
-@media only screen and (max-width: 600px){
+@media screen and (max-width:969px){
   #content-one{
    
 
   width: 100%;
+  /* padding-top: 15rem; */
+
  
   }
   #heading-one{
     font-size: 20px;
   }
   #heading-two{
-    font-size: 20px;
+    font-size: 20px
   }
   #paragraph{
     font-size: 10px;
@@ -80,8 +82,6 @@
     font-size: 10px;
   
   }
- .cs{
-  
- }
+
  
 }
