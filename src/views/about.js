@@ -15,7 +15,7 @@ const ABOUT = () => {
         </div>
 
         <div className="row my-4 justify-content-center">
-          <div className="col-lg-2">
+          <div className="col-lg-2" id="myImage">
             <img src={myImg} className="img-fluid" id="image-about" />
           </div>
 
