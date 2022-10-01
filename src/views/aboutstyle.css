@@ -85,4 +85,29 @@ gap: 3rem;
     width: 100%;
     height: 200vh;
   }
+  #myImage{
+    justify-content: center;
+    padding-left: 7rem;
+  }
+  #heading-5{
+    text-align: center;
+    padding-top: 2rem;
+  }
+  #colum-about{
+    width: 70%;
+  }
+  #box-icon{
+
+  }
+  .iconi{
+   
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width:600px){
+  #abouting{
+    background-color: #3232bd;
+    width: 100%;
+    height: 230vh;
+  }
 }
