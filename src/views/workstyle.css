@@ -20,17 +20,37 @@
 #work{
     background-color: var(--primary);
     width: 100%;
-    height: 190vh;
-  
+    height: 100vh;
+
    
 }
-#img-work{
-  width: 40%;
+
+/* .img-wrapper{
+  max-width: 100%;
+  height:23vw ;
+}  */
+.img-wrapper img{
+  width: 10%;
+}
+@media screen and (min-width:576px) {
+  .carousel-inner{
+    display: flex;
+  }
+  .carousel-item{
+    display: block;
+    margin-right: 0;
+    flex: 0 0 calc(100%/3);
+
+
+  }
+  
 }
 
+.carousel-inner{
+  padding: 1em;
+}
 .card{
-  width: 40%;
+  margin: 0 .5em;
+  
 }
-.container{
-  z-index: -1;
-}
+
