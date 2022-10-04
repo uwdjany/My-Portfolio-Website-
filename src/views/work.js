@@ -1,39 +1,97 @@
-import React from "react";
-import "./workstyle.css";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
+import React from 'react'
+import imgSlider from "../assets/image/slider.jpg"
+import "./aboutstyle.css"
 
-import { myWorkData } from "../assets/workData/myData";
 const Work = () => {
   return (
     <>
-      <section id="work">
+    <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+    <div className="carousel-inner">
+      <div className="carousel-item active">
+      <div className="card" style={{width:"19rem"}}>
+      <div className='img-wrapper'>
+      <img src={imgSlider} className="card-img-top" alt="..." id='image-slide'/>
+      </div>
+      <div className="card-body" id='carding'>
+        <h5 className="card-title">Card title</h5>
+        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" className="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+      </div>
+      <div className="carousel-item">
+      <div className="card"  style={{width:"19rem"}}>
+      <div className='img-wrapper'>
+      <img src={imgSlider} className="card-img-top" alt="..." id='image-slide'/>
+      </div>
+      <div className="card-body">
+        <h5 className="card-title">Card title</h5>
+        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" className="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+      </div>
+      <div className="carousel-item">
+      <div className="card"  style={{width:"19rem"}}>
+      <div className='img-wrapper'>
+      <img src={imgSlider} className="card-img-top" alt="..." id='image-slide'/>
+      </div>
+      <div className="card-body">
+        <h5 className="card-title">Card title</h5>
+        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" className="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+      </div>
+      <div className="carousel-item">
+      <div className="card"  style={{width:"19rem"}}>
+      <div className='img-wrapper'>
+      <img src={imgSlider} className="card-img-top" alt="..." id='image-slide'/>
+      </div>
+      <div className="card-body">
+        <h5 className="card-title">Card title</h5>
+        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" className="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+      </div>
+      <div className="carousel-item">
+      <div className="card"  style={{width:"19rem"}}>
+      <div className='img-wrapper'>
+      <img src={imgSlider} className="card-img-top" alt="..." id='image-slide'/>
+      </div>
+      <div className="card-body">
+        <h5 className="card-title">Card title</h5>
+        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" className="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+      </div>
+      <div className="carousel-item">
+      <div className="card"  style={{width:"19rem"}}>
+      <div className='img-wrapper'>
+      <img src={imgSlider} className="card-img-top" alt="..." id='image-slide'/>
+      </div>
+      <div className="card-body">
+        <h5 className="card-title">Card title</h5>
+        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" className="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+      </div>
 
+    </div>
+    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span className="visually-hidden">Previous</span>
+    </button>
+    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span className="carousel-control-next-icon" aria-hidden="true"></span>
+      <span className="visually-hidden">Next</span>
+    </button>
+  </div>
+  </>
+  )
+}
 
-    
-      <div className="container">
-      { myWorkData.map(item=>(
-        <div className="card">
-        <div className="card-top" id="card-one">
-        <img src={item.linkImg} alt={item.title} id="img-work"/>
-        <h1>{item.title}</h1>
-        
-        </div>
-        <div className="card-bottom">
-        <h3>{item.price}</h3>
-        <p>{item.category}</p>
-        </div>
-        </div>
-
-
-      ))}
-       
-       
-        </div>
-      </section>
-    </>
-  );
-};
-
-export default Work;
+export default Work
