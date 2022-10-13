@@ -4,6 +4,7 @@ import ParticlesComponent from '../component/Particles'
 import ABOUT from './about';
 // import ParticlesComponent from './component/Particles'
 import "./style.css"
+import Work from './work';
 
 
 const Home = () => {
@@ -45,6 +46,8 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
 </section>
 
 </div>
+<ABOUT/>
+<Work/>
 
 </>
 
