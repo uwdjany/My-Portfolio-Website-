@@ -32,6 +32,11 @@
 .img-wrapper img{
   width: 10%;
 }
+.coursel{
+  background-color: rgb(6, 6, 116);
+
+}
+
 @media screen and (min-width:576px) {
   .carousel-inner{
     display: flex;
