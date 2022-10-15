@@ -8,12 +8,12 @@ function WorkItem({item})
         <>
        
         <Paper>
-        <Card sx={{ maxWidth: 2045,display:"flex" , paddingTop:"40px",height:"50vh",backgroundColor:"#00003b",justifyContent:"center"}}>
+        <Card sx={{ maxWidth: 2045,display:"flex" , paddingTop:"40px",height:"50vh",backgroundColor:"#00003b",paddingLeft:"60px"}}>
         
-        <CardMedia>
+        <CardMedia sx={{display:"flex" , gap:"5rem"}}>
         <img src={item.image} alt={item.title} style={{width:"90%",height:"30vh"}}/>
        
-            <div className='description' style={{}}>
+            <div className='description' style={{paddingTop:"40px"}}>
             <h2>{item.title}</h2>
             <Button className="CheckButton">
             Check it out!
@@ -22,29 +22,7 @@ function WorkItem({item})
             </CardMedia>
             
 
-           <CardMedia>
-
-            <img src={item.image} alt={item.title} style={{width:"90%",height:"30vh"}}/>
-       
-            <div className='description' style={{}}>
-            <h2>{item.title}</h2>
-            <Button className="CheckButton">
-            Check it out!
-        </Button>
-            </div>
-            </CardMedia>
-            
-
-           <CardMedia>
-            <img src={item.image} alt={item.title} style={{width:"90%",height:"30vh"}}/>
-       
-            <div className='description' style={{}}>
-            <h2>{item.title}</h2>
-            <Button className="CheckButton">
-            Check it out!
-        </Button>
-            </div>
-            </CardMedia>
+           
             
 
           
