@@ -27,11 +27,9 @@ const Home = () => {
   <div className='row justify-content-center'>
     <div className='col-md-8 text-center'>
 <p className='text-muted my-4' id='paragraph'>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
-              maxime alias, ipsam dicta beatae sed nesciunt iusto eos id nemo
-              perspiciatis doloremque rem veniam voluptatum quidem dolorem
-              dolore magni sapiente! Lorem ipsum dolor, sit amet consectetur
-              adipisicing elit. Maxime sequi ab sint nostrum
+I’m a Full Stack Web developer who have a bachelor’s degree in Computer science  from ULK GISENYI. 
+Motivated, adaptable, quick learner, always attentive, empathetic and organized, I am also passionate about new technologies
+
               
 </p>
 <a className='btn btn-primary fw-bold mx-3' id="btn-one" href='#'>Contact Me</a>
