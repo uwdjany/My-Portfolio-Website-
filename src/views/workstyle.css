@@ -38,6 +38,9 @@
   padding-right: 75px;
 
 }
+.CheckButton{
+  background-color:white;
+}
 
 @media screen and (min-width:576px) {
   .carousel-inner{
